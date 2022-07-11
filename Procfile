@@ -1,1 +1,1 @@
-web: nodemon -r esm  backEnd/src/app.js
+web: node -r esm  backEnd/src/app.js
