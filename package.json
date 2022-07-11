@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "heroku-prebuild": "NODE_ENV=production cd frontEnd/ && npm install && npm run build && cd ../backEnd/ && npm install && npm start"
+    "heroku-prebuild": "NODE_ENV=production cd frontEnd/ && npm install && npm run build && cd ../backEnd/ "
   }
 }
